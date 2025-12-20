@@ -50,8 +50,10 @@ function draw() {
   fill(225);
   noStroke();
   textSize(21);
-  text (totalSeconds, 150, 150);
-  text (hr + ':' + min + ':' + sec, 357, 908);
+  loadFont("Roboto Mono");
+  text(totalSeconds, 150, 150);
+  text(hr + ':' + min + ':' + sec, 357, 908);
+
 
 
 
