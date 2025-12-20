@@ -13,6 +13,7 @@ function setup() {
   createCanvas(800, 1200);
   background(50);
   stroke(colorOftheMinute);
+  strokeWeight(3);
 
   colorAfterPress = color(random(255), random(255), random(255));
   colorOftheMinute = color(random(255), random(255), random(255));
@@ -41,7 +42,7 @@ function draw() {
   fill(50);
   stroke(colorAfterPress);
   strokeWeight(2);
-  rect(300, 878, 200, 40, 10);
+  rect(300, 800, 200, 40, 10);
 
 
   let hr = hour();
@@ -54,7 +55,7 @@ function draw() {
   textSize(21);
   textFont("Roboto Mono");
   text(totalSeconds, 150, 150);
-  text(hr + ':' + min + ':' + sec, 357, 880);
+  text(hr + ':' + min + ':' + sec, 357, 827);
 
 
 
