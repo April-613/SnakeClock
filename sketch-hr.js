@@ -36,12 +36,12 @@ function draw() {
   fill(50);
   stroke(colorOftheMinute);
   strokeWeight(1);
-  rect(140, 120, 600, 40);
+  rect(140, 120, 100, 40);
 
   fill(50);
   stroke(colorAfterPress);
   strokeWeight(2);
-  rect(300, 800, 200, 40, 10);
+  rect(300, 878, 200, 40, 10);
 
 
   let hr = hour();
@@ -54,7 +54,7 @@ function draw() {
   textSize(21);
   textFont("Roboto Mono");
   text(totalSeconds, 150, 150);
-  text(hr + ':' + min + ':' + sec, 357, 908);
+  text(hr + ':' + min + ':' + sec, 357, 880);
 
 
 
