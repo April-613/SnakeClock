@@ -12,6 +12,8 @@ function setup() {
   //frameRate(1);
   createCanvas(800, 1200);
   background(50);
+  stroke(colorOftheMinute);
+
   colorAfterPress = color(random(255), random(255), random(255));
   colorOftheMinute = color(random(255), random(255), random(255));
 
