@@ -39,7 +39,7 @@ function draw() {
   fill(50);
   stroke(colorAfterPress);
   strokeWeight(2);
-  rect(325, 880, 150, 40);
+  rect(320, 880, 160, 40);
 
 
   let hr = hour();
