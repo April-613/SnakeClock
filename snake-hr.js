@@ -6,6 +6,7 @@ function SnakePathHr (){
 
 
   textSize(21);
+  textFont("Roboto Mono");
   fill(225);
   // stroke(225);
   // strokeWeight(1);
