@@ -34,12 +34,12 @@ function draw() {
   fill(50);
   stroke(colorOftheMinute);
   strokeWeight(1);
-  rect(140, 120, 500, 40);
+  rect(140, 120, 200, 40);
 
   fill(50);
   stroke(colorAfterPress);
   strokeWeight(2);
-  rect(300, 880, 500, 40);
+  rect(300, 880, 200, 40);
 
 
   let hr = hour();
