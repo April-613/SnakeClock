@@ -5,3 +5,10 @@ html, body {
 canvas {
   display: block;
 }
+
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
