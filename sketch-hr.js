@@ -34,7 +34,7 @@ function draw() {
   fill(50);
   stroke(colorOftheMinute);
   strokeWeight(1);
-  rect(140, 120, 100, 40);
+  rect(140, 120, 500, 40);
 
   fill(50);
   stroke(colorAfterPress);
