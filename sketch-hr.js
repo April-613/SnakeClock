@@ -12,16 +12,13 @@ function setup() {
   //frameRate(1);
   createCanvas(800, 1200);
   background(50);
-  stroke(colorOftheMinute);
-  strokeWeight(3);
+
+
+
 
   colorAfterPress = color(random(255), random(255), random(255));
   colorOftheMinute = color(random(255), random(255), random(255));
 
-  // fill(255);
-  // stroke(100);
-  // strokeWeight(0.5);
-  // line (200, 0, 200, 400);
 
   push();
   SnakePathHr();
@@ -81,7 +78,10 @@ function draw() {
       }
   pop();
 
-
+  noFill();
+  stroke(colorAfterPress);
+  strokeWeight(5);
+  rect(1, 1, 796, 1196);
 
 }
 
