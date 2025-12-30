@@ -4,9 +4,8 @@ function SnakePath (){
   // snake.end = end;
 
 
-
-  textSize(14);
   textFont("Roboto Mono");
+  textSize(14);
   fill(225);
   // stroke(225);
   // strokeWeight(1);
@@ -17,33 +16,6 @@ function SnakePath (){
   line(0, 0, -100, 0);
   noStroke();
   text('0', 0, -12);
-//  line2();
-
-  // SnakePath.begin = (0, 0);
-  // SnakePath.end = (-100, 0);
-  // SnakePath.length = ;
-
-
-  // let hr = hour();
-  // let min = minute();
-  // let sec = second();
-
-  // var currentTime = hr*60*60 + min*60 + sec;
-  // var totalSeconds = 60*60*24;
-  //
-  // var LP = currentTime/totalSeconds;
-
-
-  // var pos = []
-  // var velocity = SnakePath.length/second;
-  // var v = velocity;
-  //
-  // timeDot = pos + v + direction; //maybe?
-
-
-  // var dir1 = (-x, 0); //do I need to define x & y first?
-  // var dir2 = (0, -y);
-  // var dir3 = (x, 0);
 
 
 
