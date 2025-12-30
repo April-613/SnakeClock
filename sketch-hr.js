@@ -6,6 +6,10 @@
 
 let colorAfterPress = 0;
 let colorOftheMinute = 0;
+//let colorForZeroOclock = 0;
+
+var song;
+
 
 
 function setup() {
@@ -18,7 +22,7 @@ function setup() {
 
   colorAfterPress = color(random(255), random(255), random(255));
   colorOftheMinute = color(random(255), random(255), random(255));
-
+  //colorForZeroOclock = color(193, 157, 255);
 
   push();
   SnakePathHr();
@@ -83,9 +87,27 @@ function draw() {
   strokeWeight(5);
   rect(1, 1, 796, 1196);
 
+  //song = loadSound("Zero O’Clock.mp3", loaded);
+
+}
+
+
+function loaded(){
+  song.play();
 }
 
 function mousePressed(){
   colorAfterPress = color(random(255), random(255), random(255));
 
 }
+
+// push();
+//   fill (colorForZeroOclock);
+//   stroke (colorForZeroOclock);
+//   strokeWeight (7);
+//   snakeBySecond();
+//   //86316
+//   if (81900 <= totalSeconds <= 86566) {
+//     colorForZeroOclock = color(193, 157, 255);
+//   }
+//   pop();
